@@ -26,22 +26,37 @@
 Hello and welcome to Vanderbilt!
 
 \section{Learning Goals}
-By the end of Computer Camp, our
+By the end of Computer Camp, our goal if for you to be able to:
 \begin{itemize}
-    \item Become comfortable with basic functionality of R
-    \item Become comfortable with basic functionality of LaTeX
-    \item Be aware of tools available for social scientists
+    \item Load data in R
+    \item Manipulate the data in basic ways (like tabulating results)
+    \item Find help online when you get stuck in R
+    \item Compile basic LaTeX documents
+    \item Choose good tools for organizing papers, checking algebra, etc. during your first year.
 \end{itemize}
 
-\section{Why R?}
+\section{Required Programming Background}
 
-Because it's currently the most-used statistical software in political science, and using the same tool as those around you will make it easier to collaborate and get help. It is \emph{not} because it is the only tool available, or even the best.
+{\color{red}\textbf{None.}}
 
-In the course of your careers, you will hear \emph{lots} of opinions about what software is best. Some people swear by R and look down upon people who use other programs like Stata; others hate R and think it's clunky. The reality is that there are currently a large number of programs people use to do statistics in the social sciences, including R, Stata, SPSS, Python, Julia, etc., just to name a few, and \textbf{each language has its own strengths and weaknesses} and over the course of your career you may find yourself gravitating to one tool or another as required by your research. But most programming languages have similar underlying patterns, and by becoming comfortable with R, we hope to not only give you a firm foundation in a very popular language, but also teach you skills you can bring with you if you ever find you need to switch programs.
+We have \emph{absolutely no expectations that students will have any experience with programming!} Computer Camp is required for all students, and we fully recognize that many students have never worked with statistical software. That's FINE! If you know how to use google and email, you have plenty of experience -- everything else we'll take care of.
+
+At times during the course, we may make statements about how the tools we're learning (like R) compare to different tools (like Stata or Python) if we find there are students with experience in these other tools. However, if we make those comparisons, it is only to help those students the traps one can fall in if one's background is in another language. It is in no way because we \emph{expect} all students to have experience with other tools.
+
+
+\section{R}
+
+We'll spend most of Computer Camp teaching you to use a program for statistical analysis called \emph{R} (yup, just the letter).
+
+Why R? Because it's currently the most-used statistical software in political science, and using the same tool as those around you will make it easier to collaborate and get help.
+
+It is worth emphasizing that we're not teaching you R because we think it is the best. The reality is that there are lots of tools for statistical programming, and each has its own strengths and weaknesses (e.g. R, Stata, SPSS, Python, Julia, Matlab, etc.). People develop really strong opinions about what language is \emph{best}, and sometimes pass judgement on people who use other languages. We would like to discourage this type of thinking. Personally, I (Nick) regularly work in at least four different programming languages depending on which is best suited to the task at hand, so I think I have reasonable authority to say: there is no single \emph{best} language for all purposes.
+
+As a result, over the course of your career you may find yourself gravitating to one tool or another as required by your research. But in providing you with a firm foundation in a very popular language like R, we feel confident that we will not only be providing you with tools that will allow you to do most everything you'll want to do in graduate school, but we will also be providing you with \emph{generalizable} skills around data manipulation that you will find useful if you later change platforms.
 
 \section{Class Organization}
 
-In this class we will be ``flipping the classroom'' -- you will be required to review tutorials on R between classes, and each afternoon we will focus on doing exercises that allow you to get hands on experience with the skills you've read about in an environment where help will be available.
+In this class we will be ``flipping the classroom'' -- you will be required to review tutorials on R between classes, and each afternoon we will focus on doing exercises that allow you to get hands on experience with the skills you've read about in an environment where help will be available. These tutorials aren't very long, and we \textbf{strongly} recommend that while you read through them you do so with an open R session so you can just play around a little, trying out the things you learn. The research on learning to program is exceedingly clear on this point: \textbf{the only way to learn to program is to actually program}, so the more time you spend playing with R, making mistakes, and troubleshooting, the more you will learn. We'll do lots of exercises in class, but the more you play on your own too, the more you will learn.
 
 In particular, we will primarily relying on a set of excellent R tutorials written by Simon Edjmeyr which you can find at:
 \begin{itemize}
@@ -65,9 +80,10 @@ as well as a few supplementary tutorials from Kelly Black which you can find at:
     \item Look at tutorial pages!
 \end{itemize}
 
-\textbf{Homework to be done before Class 2:}
+\emph{Homework to be done before Class 2:}
 \begin{itemize}
-    \item Edjemyr Tutorial: \href{https://sejdemyr.github.io/r-tutorials/basics/introduction/}{Intro to R}
+    \item Edjemyr Tutorial: \href{https://sejdemyr.github.io/r-tutorials/basics/introduction/}{Intro to R} \\
+    \emph{We'll go over most of this material on the first day, but please skim it at home for completeness.}
     \item Edjemyr Tutorial: \href{https://sejdemyr.github.io/r-tutorials/basics/vectors/}{Vectors}
     \item Edjemyr Tutorial: \href{https://sejdemyr.github.io/r-tutorials/basics/dataset-basics/}{DataFrames}
 \end{itemize}
@@ -82,25 +98,23 @@ as well as a few supplementary tutorials from Kelly Black which you can find at:
     \item look at data, play with couple data types, get summary stats.
 \end{itemize}
 
-\textbf{Homework to be done before Class 3:}
+\emph{Homework to be done before Class 3:}
 \begin{itemize}
+    \item Black Tutorial \href{https://www.cyclismo.org/tutorial/R/vectorIndexing.html}{Indexing}
     \item Edjemyr Tutorial: \href{https://sejdemyr.github.io/r-tutorials/basics/merging-appending/}{Merging}
     \item Black Tutorial: \href{https://www.cyclismo.org/tutorial/R/linearLeastSquares.html}{OLS}
 \end{itemize}
 
-
-
 \subsection*{Class 3: Working with Multiple Data Sources}
 \emph{Monday, August 13th}
 \begin{itemize}
-    \item read in CSV
-    \item look at data, play with couple data types, get summary stats.
+    \item Merge datasets
+    \item
 \end{itemize}
 
 \textbf{Homework to be done before Class 3:}
 \begin{itemize}
     \item Edjmeyr Tutorial: \href{https://sejdemyr.github.io/r-tutorials/statistics/tutorial2.html#graphing-with-ggplot}{ggplot}
-    \item Edjmeyr Tutorial: \href{https://sejdemyr.github.io/r-tutorials/basics/modifying-data/}{dplyr}
 \end{itemize}
 
 
